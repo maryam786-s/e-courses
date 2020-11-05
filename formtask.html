@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="sty.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootstrap CDN link  -->
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<!-- bootstrao end here  -->
+</head>
+<body>
+	<header>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Bluehawks</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <!-- <li class="nav-item active">
+      </li> -->
+      <li>
+      <a class="btn btn-danger" data-target="#mymodal" data-toggle="modal" href="popup.html">Get More Update</a></li>
+      <li class="nav-item active">
+        <a class="nav-link" href="try.html">Courses</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+    
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Enter your course name" aria-label="Search">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+<!-- navbar end -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  
+  <!-- The slideshow -->
+  <div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/p5.jpg" alt="study image" width="100%" height="450">
+      <div class="carousel-caption d-none d-md-block">
+        <!--link with button to control pop up form1-->
+    <a class="btn btn-warning" data-target="#mymodal" data-toggle="modal" href="popup.html">Get More Update</a>
+        
+    <h5 style="color:#343a40,text-capitalize">The Great Learner</h5>
+    <p style="color:#343a40,text-capitalize">As Much As You will learn then As Soon As you Earn. </p>
+  </div>
+     </div>
+     <!--modal form pop up!-->
+     <div class="modal"  id="mymodal"> 
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="text-center text-primary">Fill it up to get more update</h2>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>  
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+           <label for="exampleInputEmail1"><i class="fa fa-user-o fa-x" aria-hidden="true"></i>Full Name:</label>
+           <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           <small id="emailHelp" class="form-text text-muted">It's required to enter</small>
+           </div>
+           <div class="container">
+  <div id="wrapper">
+    <div class="form-group">
+    <div class="control-group">
+<label for="select-beast"><i class="fa fa-compass fa-x" aria-hidden="true"></i>State:</label>
+        <select class="form-control" id="select-state" placeholder="Pick a state...">
+          <option value="">Select a state...</option>
+  
+          <option  value="AL">Andhra Pradesh</option>
+          <option  class="dropdown-item" value="AK">Anurachal Pradesh</option>
+          <option  value="AZ">Assam</option>
+          <option  value="AR">Bihar</option>
+          <option  value="CA">Chhatisgarh</option>
+          <option  value="CO">Goa</option>
+          <option  value="CT">Gujarat</option>
+          <option  value="DE">Haryana</option>
+          <option value="DC">Himachal Pradesh</option>
+          <option   value="FL">Jharkand</option>
+          <option value="GA">Karnataka</option>
+          <option class="dropdown-item"  value="HI">Kerala</option>
+          <option  class="dropdown-item" value="ID">Madhya Pradesh</option>
+          <option class="dropdown-item" value="IL">Maharashtra</option>
+          <option  class="dropdown-item" value="IN">Manipur</option>
+          <option class="dropdown-item"  value="IA">Mizoram</option>
+          <option class="dropdown-item" value="KS">Meghalaya</option>
+          <option class="dropdown-item" value="KY">Nagaland</option>
+          <option class="dropdown-item" value="LA">Odisha</option>
+          <option class="dropdown-item"  value="ME">Punjab</option>
+          <option class="dropdown-item" value="MD">Maryland</option>
+          <option class="dropdown-item"  value="MA">Rajasthan</option>
+          <option class="dropdown-item" value="MI">Sikkim</option>
+          <option  class="dropdown-item" value="MN">Tamil Nadu</option>
+          <option  class="dropdown-item" value="MS">Telangana</option>
+          <option  class="dropdown-item" value="MO">Tripura</option>
+          <option class="dropdown-item" value="MT">Uttrakhand</option>
+          <option class="dropdown-item" value="NE">Uttar pradesh</option>
+          <option class="dropdown-item"  value="bn">Uttar Pardesh</option>
+          <option class="dropdown-item"  value="wb">West Bengal</option>
+          </select>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+         <div class="form-group">
+         <label for="exampleInputEmail1"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email address:</label>
+         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+       </div>
+         <div class="form-group">
+        <label for="exampleInputPassword1"><i class="fa fa-mobile" aria-hidden="true"></i> Mobile_No.</label>
+        <input type="text" class="form-control" id="exampleInputPassword1">
+        <small id="emailHelp" class="form-text text-muted">Mobile No. should be 10 digite.</small><br>
+        <button class="btn bg-success text-white">Send OTP</button><small id="emailHelp" class="form-text text-muted">To verify your No.</small>
+        </div>
+        <div class="form-group">
+        <label for="exampleInputPassword1"> Enter OTP:</label>
+        <input type="text" class="form-control"  placeholder="Enter OTP Here" id="exampleInputPassword1">
+        <br>
+       <div class="form-group form-check">
+       <input type="checkbox" class="form-check-input" id="exampleCheck1">
+       <label class="form-check-label" for="exampleCheck1">I would like to get update</label>
+       </div>
+      <button type="submit" onclick="fun();" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+        
+      </div>
+       
+    </div>
+    
+
+  </div>
+  
+</div>
+
+     <!--end of pop up!-->
+
+
+</header>
+<section class="bg-primary">
+  <article class="py-5 text-center text-white ">
+    <div>
+       <h3 class="display-4 ">+91 23456789</h3>
+       <p>If you want best service , Call us Now </p>
+       <button class="btn btn-warning">Contact Now</button>
+    </div>
+  </article>
+</section>
+</body>
+</html>
